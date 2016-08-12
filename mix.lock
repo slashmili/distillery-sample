@@ -1,1 +1,1 @@
-%{"distillery": {:hex, :distillery, "0.9.2", "ff52a6e438b6042a3b14f0b5574a6d65d228e1cfab37a42444a9700eefff413a", [:mix], []}}
+%{"distillery": {:git, "https://github.com/bitwalker/distillery.git", "72432da17160f1ca659aaa6968fccab5ed450405", []}}
