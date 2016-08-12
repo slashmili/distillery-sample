@@ -111,9 +111,8 @@ $ mix release --verbose --profile=myapp:prod
       Daemon: rel/myapp/bin/myapp start
 $ rel/myapp/bin/myapp console
 iex(myapp@127.0.0.1)1> Application.started_applications
-[{:myapp, 'myapp', '0.1.0'}, {:iex, 'iex', '1.3.2'},
- {:sasl, 'SASL  CXC 138 11', '3.0'}, {:mydist, 'mydist', '0.1.0'},
- {:logger, 'logger', '1.3.2'}, {:elixir, 'elixir', '1.3.2'},
- {:compiler, 'ERTS  CXC 138 10', '7.0.1'},
+[{:myapp, 'myapp', '0.1.0'}, {:logger, 'logger', '1.3.2'},
+ {:iex, 'iex', '1.3.2'}, {:elixir, 'elixir', '1.3.2'},
+ {:compiler, 'ERTS  CXC 138 10', '7.0.1'}, {:sasl, 'SASL  CXC 138 11', '3.0'},
  {:stdlib, 'ERTS  CXC 138 10', '3.0.1'}, {:kernel, 'ERTS  CXC 138 10', '5.0'}]
 ```
