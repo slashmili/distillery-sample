@@ -30,5 +30,4 @@ end
 
 release :myapp do
   set version: "0.1.0"
-  set applications: [:myapp, mydist: :load]
 end

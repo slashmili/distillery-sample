@@ -36,6 +36,6 @@ defmodule Myapp.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:mydist, in_umbrella: true}]
+    [{:ecto_enum, "~> 0.4.0"}]
   end
 end
