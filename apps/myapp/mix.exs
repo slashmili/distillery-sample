@@ -22,6 +22,10 @@ defmodule Myapp.Mixfile do
      mod: {Myapp, []}]
   end
 
+  def included_applications do
+    [:ecto_enum]
+  end
+
   # Dependencies can be Hex packages:
   #
   #   {:mydep, "~> 0.3.0"}
