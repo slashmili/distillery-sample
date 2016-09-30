@@ -19,6 +19,7 @@ defmodule Myapp.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger],
+     included_applications: [:uuid],
      mod: {Myapp, []}]
   end
 
@@ -36,6 +37,9 @@ defmodule Myapp.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:mydist, in_umbrella: true}]
+    [
+      {:uuid, "~> 1.1"},
+      {:mydist, in_umbrella: true}
+    ]
   end
 end
